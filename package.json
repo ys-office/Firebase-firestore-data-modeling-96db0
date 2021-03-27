@@ -1,0 +1,11 @@
+{
+  "name": "firestore-data-modeling-96db0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ys-office/Firebase-firestore-data-modeling-96db0.git",
+  "author": "Yusuke Sato <yusuke.sato@ys-office.me>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^9.5.0"
+  }
+}
