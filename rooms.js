@@ -16,6 +16,10 @@ const messageRef = db.collection('rooms').doc('roomA').collection('messages'); /
 messageRef
   .get()
   .then((snapshot) => {
+    snapshot.docs.forEach(doc => {
+      console.log(doc.data()['from']);
+      // alex
+    });
     const data = snapshot.docs.map((doc) => ({
       ...doc.data(),
     }));
