@@ -6,6 +6,7 @@
   "author": "Yusuke Sato <yusuke.sato@ys-office.me>",
   "license": "MIT",
   "dependencies": {
-    "firebase-admin": "^9.5.0"
+    "firebase": "^9.0.2",
+    "firebase-admin": "^9.11.1"
   }
 }
